@@ -1,0 +1,501 @@
+body {
+  font-family: "Montserrat", "sans-serif";
+}
+
+.navbar {
+  height: 127px;
+}
+
+nav ul li a {
+  margin-right: 20px;
+}
+
+/* main banner css satrt */
+.main-banner {
+  background-image: url("../images/banner-img.jpg ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+
+  /* padding: 283px 0 254px; */
+}
+
+.banner-text {
+  position: relative;
+  right: 40px;
+  width: 650px;
+}
+
+.banner-text h2 {
+  padding-top: 68px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 79px;
+  line-height: 88px;
+  margin-bottom: 29px;
+}
+
+.banner-text span {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 55px;
+}
+
+.location-search input {
+  position: relative;
+  right: 40px;
+  width: 50%;
+  height: 80px;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 50px;
+}
+
+.btn-default {
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  font-size: 16px;
+  padding: 0 45px;
+  height: 64px;
+  line-height: 64px;
+  border: 0;
+  color: #fff;
+  position: relative;
+
+  right: 200px;
+  border-radius: 50px;
+}
+/* 
+.banner-cards {
+  height: 90vh;
+} */
+
+.card-body a {
+  text-decoration: none;
+}
+
+.banner-cards .card {
+  margin-top: -40px;
+  color: white;
+  overflow: hidden;
+  background: #22262f;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+
+.banner-cards span {
+  color: #d8ab37;
+}
+/* main banner css end */
+
+/* featured css start */
+.featured-text {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.featured-text span {
+  display: block;
+  font-family: "Norican", cursive;
+  color: #d8ab37;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.featured-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  font-family: "Solway", serif;
+}
+
+.featured-text p {
+  color: #5d6978;
+}
+
+.featured-image {
+  margin-top: 60px;
+}
+
+.featured-image img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.featured-btn button {
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  height: 64px;
+  line-height: 64px;
+  padding: 0 45px;
+  overflow: hidden;
+  font-size: 16px;
+  position: relative;
+  color: #fff;
+  border-radius: 50px;
+  z-index: 1;
+  text-transform: capitalize;
+  border: none;
+}
+
+.ft-text {
+  position: absolute;
+  padding: 5px 20px;
+  top: 275px;
+  left: 12px;
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0 30px 30px 0;
+  color: #fff;
+}
+
+.ft-text-2 {
+  position: absolute;
+  bottom: 15px;
+  left: 55px;
+  color: white;
+  font-size: 32px;
+  font-family: "Solway", serif;
+  font-weight: 650;
+}
+/* featured css end */
+
+/* reason why css start */
+.reason-text {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.reason-text span {
+  display: block;
+  font-family: "Norican", cursive;
+  color: #d8ab37;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.reason-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  font-family: "Solway", serif;
+}
+
+.reason-text p {
+  color: #5d6978;
+}
+
+.reason-cards h3 {
+  color: #2f3237;
+  font-size: 20px;
+  margin-bottom: 11px;
+  font-weight: 800;
+  font-family: "Solway", serif;
+}
+/* reason why css end */
+
+/* discout css start */
+
+.discount {
+  background-image: url("../images/bg1pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  margin-top: 120px;
+
+  /* padding: 283px 0 254px; */
+}
+
+.discount-text {
+  padding-top: 30px;
+  position: relative;
+  right: 40px;
+  width: 700px;
+}
+
+.discount-text h2 {
+  padding-top: 68px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 88px;
+  margin-bottom: 29px;
+}
+
+.discount-text h2 span {
+  color: #d8ab37;
+}
+
+.discount-text h4 {
+  color: white;
+}
+
+.discount-text p {
+  color: white;
+}
+/* discount css end */
+
+.discount-text button {
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  border-radius: 50px;
+  border: none;
+  line-height: 64px;
+  padding: 0 45px;
+  font-size: 16px;
+  position: relative;
+  color: #fff;
+  left: 80px;
+
+  overflow: hidden;
+}
+/* discont css end */
+
+/* testimonial css start */
+
+.testimonial-text {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.testimonial-text span {
+  display: block;
+  font-family: "Norican", cursive;
+  color: #d8ab37;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.testimonial-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  font-family: "Solway", serif;
+}
+
+.testimonial img {
+  border-radius: 50px;
+  margin-bottom: 25px;
+  vertical-align: middle;
+}
+
+.carousel {
+  height: 60vh;
+}
+/* testimonail css end */
+
+/* amazing taste css start */
+.amazing-text {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.amazing-text span {
+  display: block;
+  font-family: "Norican", cursive;
+  color: #d8ab37;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.amazing-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  font-family: "Solway", serif;
+}
+
+.text-bg {
+  color: #5d6978;
+  font-size: 16px;
+  background-color: #f4f7fd;
+  height: 40px;
+  line-height: 38px;
+  cursor: pointer;
+  padding: 0 30px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.badge:hover {
+  border-color: #d8ab37;
+  color: #d8ab37;
+  background-color: #ffffff;
+}
+
+.amazing-add-cart {
+  margin-top: 30px;
+}
+
+.amazing-add-cart img {
+  width: 307px;
+  height: 307px;
+}
+
+.amazing-add-cart button {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 35px;
+  font-size: 16px;
+  position: relative;
+  color: #fff;
+  border-radius: 50px;
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  border: none;
+}
+/* amazing taste css end */
+
+/* make order css start */
+
+.make-order {
+  background-image: url("../images/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  margin-top: 120px;
+}
+.make-order-text {
+  margin-top: 70px;
+  position: relative;
+  top: 80px;
+}
+.make-order-text h2 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 88px;
+  text-transform: capitalize;
+  margin-bottom: 68px;
+  font-family: "Solway", serif;
+}
+.make-order-text h2 span {
+  display: inline-block;
+  color: #d8ab37;
+}
+.make-order-text p {
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+  left: 38px;
+  font-family: "Montserrat", "sans-serif";
+}
+.make-order-text h4 {
+  font-family: "Montserrat", "sans-serif";
+  color: #fff;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.download-app {
+  position: relative;
+  top: 110px;
+}
+/* make order css end */
+
+/* news letter css start */
+.news-letter {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  margin-top: 100px;
+  background-color: #22262f;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.email-search input {
+  position: relative;
+  right: 40px;
+  width: 71%;
+  height: 80px;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 50px;
+}
+
+.btn-default-email {
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  font-size: 16px;
+  padding: 0 45px;
+  height: 64px;
+  line-height: 64px;
+  border: 0;
+  color: #fff;
+  position: relative;
+  right: 227px;
+  border-radius: 50px;
+}
+/* news letter css end */
+
+/* our blog css start */
+
+.our-blog-text {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.our-blog-text span {
+  display: block;
+  font-family: "Norican", cursive;
+  color: #d8ab37;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.our-blog-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  font-family: "Solway", serif;
+}
+
+.our-blog-text p {
+  color: #5d6978;
+}
+/* our blog css end */
+
+/* footer css start */
+.footer {
+  background-image: url("../images/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  margin-top: 120px;
+}
+
+.call-img span {
+  position: relative;
+  bottom: 70px;
+  display: inline-block;
+  border-radius: 50%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 72%
+  );
+  height: 150px;
+  width: 150px;
+}
+
+.call-img i {
+  position: relative;
+  font-size: 60px;
+  top: 40px;
+  color: #fff;
+}
+/* footer css end */
