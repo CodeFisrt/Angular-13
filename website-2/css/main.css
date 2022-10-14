@@ -1,0 +1,189 @@
+/*---------- nav -----------*/
+
+
+/*--------- header  ---------*/
+
+.top-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-header a {
+    text-decoration: none;
+}
+
+/*------- form ------------*/
+/* .from {
+    margin-top: 30px;
+}
+.from .col-12 {
+    width: 100%;
+} */
+.container book1 {
+    display: flex;
+    text-align: center;
+    
+}
+.column2 img {
+    
+    height: 400px;
+}
+
+
+/*----------------  Features  ----------*/
+
+.features .container {
+    z-index: 1;
+    padding:80px 80px 55px ;
+    background-color:#25283a ;
+}
+.features .container .row{
+    display: flex;
+    justify-content: center;
+}
+.features .container h3 {
+    color: white;
+}
+.features .container p {
+    color: #b9baca;
+}
+
+
+/*--------------- Copyright ------------*/
+
+.container-fluid {
+    background-color: #25283a;
+    /* text-decoration: none; */
+    color: white;
+    margin-top: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-fluid p {
+    color: #b9baca;
+}
+
+.container-fluid li {
+    list-style: none;
+    color: #b9baca;
+}
+
+.container-fluid li>a {
+    text-decoration: none;
+    color: white;
+    color: #b9baca;
+}
+
+
+.Contact-div span {
+    color: white;
+}
+
+
+.sub-div .container {
+    background-color: #924dff;
+    display: flex;
+    text-align: center;
+}
+
+
+.copyright-area {
+    list-style: none;
+    text-align: center;
+    font-weight: 200px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright-area span {
+    color: white;
+}
+
+.copyright-area a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright-area p {
+    color: #b9baca;
+    height: 10px;
+}
+
+.social :hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: 10px;
+}
+
+.social  { 
+    /* background-color: white; */
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ 
+.flight-details {
+    background-image: url(/website-2/image/flight-bg.jpg);
+     background-position: center center;
+}
+.page-title{
+    text-align: center;
+    color: white;;
+}
+.page-title img{
+    left: 0;
+}
+.page-tittle p {
+    color: white;
+}
+
+.page-title form{    
+    background-color: white;
+    border-radius: 60px;
+}
+.form .form-start label{
+    color: black;
+}
+.container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px
+    
+}
+.container p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 31px;
+}
+
+
+
+.york-div {
+    background-color: #f3f7ff;
+}
+.york-div a {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+  */
