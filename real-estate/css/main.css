@@ -1,0 +1,46 @@
+body {
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.back-img {
+    background-image: url('../images/img-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
+}
+
+
+.font-span span {
+    font: 40px;
+    text-decoration-color: brown;
+
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin: 0px 25px;
+}
+
+.option-2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.head-mar {
+    margin-top: 125px;
+    font-size: 100px;
+}
+
+.input-group input {
+    margin-left: 500px;
+
+}
+
+
+/* section 3 start */
