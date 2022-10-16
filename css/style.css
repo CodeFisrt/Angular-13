@@ -1,0 +1,319 @@
+.navbar {
+  height: 127px;
+}
+nav ul li a {
+  margin-right: 20px;
+}
+.main-bainer {
+  background-image: url("../images/banner-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 283px 0 254px; */
+  height: 90vh;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.bainer-text h2 {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 88px;
+  margin-bottom: 29px;
+  padding-top: 90px;
+}
+.bainer-text {
+  width: 650px;
+}
+.semi-bold {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+.location-search input {
+  width: 30%;
+  height: 80px;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 0 40px;
+  border-radius: 50px;
+}
+.btn-default {
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  font-size: 16px;
+  padding: 0 45px;
+  height: 64px;
+  line-height: 64px;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  position: relative;
+
+  right: 160px;
+}
+.service-card {
+  background-color: #22262f;
+  color: white;
+}
+.card-body {
+  border-radius: 10px;
+  padding: 44px 45px 41px;
+  position: relative;
+}
+.card-title {
+  color: #d8ab37;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.margintop-card {
+  margin-top: -40px;
+}
+.section-title span {
+  font-size: 30px;
+  color: #d8ab37;
+  font-family: "Norican", cursive;
+  margin-bottom: 16px;
+}
+.section-title {
+  margin-top: 70px;
+}
+.section-title h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.ft-text {
+  position: absolute;
+  top: 320px;
+  left: 12px;
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  border-radius: 0px 50px 50px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 0 30px 30px 0;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.ft-text-2 {
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 40px;
+}
+.button-default {
+  display: inline-block;
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  height: 64px;
+  line-height: 64px;
+  padding: 0 45px;
+  overflow: hidden;
+  font-size: 16px;
+  position: relative;
+  color: #fff;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+.reason-text {
+  text-align: center;
+  margin-top: 100px;
+}
+.reason-text span {
+  font-size: 30px;
+  color: #d8ab37;
+  font-family: "Norican", cursive;
+}
+.reason-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.reason-text p {
+  color: #5d6978;
+}
+.image-section-bg {
+  background-image: url(../images/bg2.jpg);
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  height: 90vh;
+}
+.image-section-bg {
+  color: white;
+  padding-top: 100px;
+  padding-left: 140px;
+}
+.image-section-bg h2 {
+  font-weight: 800;
+  font-size: 90px;
+  margin-top: 50px;
+}
+.image-section-bg span {
+  font-size: 80px;
+  color: #d8ab37;
+}
+.image-section-bg h4 {
+  margin-top: 20px;
+}
+.image-section-bg p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.testimonials-text {
+  text-align: center;
+  margin-top: 100px;
+}
+.testimonials-text span {
+  font-size: 30px;
+  color: #d8ab37;
+  font-family: "Norican", cursive;
+}
+.testimonials-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  margin-top: 15px;
+}
+.amazing-text {
+  text-align: center;
+  margin-top: 100px;
+}
+.amazing-text span {
+  font-size: 30px;
+  color: #d8ab37;
+  font-family: "Norican", cursive;
+}
+.amazing-text h2 {
+  color: #2f3237;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  margin-top: 15px;
+}
+.bage-text span {
+  background-color: #fff;
+  color: #d8ab37;
+  font-size: 20px;
+  display: inline-block;
+  color: #5d6978;
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: #f4f7fd;
+  height: 40px;
+  line-height: 38px;
+  cursor: pointer;
+  padding: 0 30px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  margin: 20px;
+}
+.bage-text :hover {
+  background-color: white;
+  color: #d8ab37;
+  border-color: #d8ab37;
+}
+.details strong {
+  font-size: 25px;
+}
+.details button {
+  display: inline-block;
+  background: linear-gradient(93.93deg, #d8ab37 0%, #f18345 100%);
+  height: 64px;
+  line-height: 64px;
+  padding: 0 45px;
+  overflow: hidden;
+  font-size: 16px;
+  position: relative;
+  color: #fff;
+  align-items: center;
+
+  border-radius: 50px;
+  z-index: 1;
+  text-transform: capitalize;
+  border: none;
+}
+.make-orders {
+  background-image: url("../images/bg2-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 283px 0 254px; */
+  height: 90vh;
+  margin-top: 150px;
+}
+.make-orders h2 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 88px;
+  text-transform: capitalize;
+  margin-bottom: 68px;
+  font-family: "Solway", serif;
+}
+.make-orders span.app {
+  display: inline-block;
+  color: #d8ab37;
+  font-family: "Solway", serif;
+}
+.make-order-text {
+  position: relative;
+  top: 80px;
+  margin-left: 120px;
+}
+.text-images p {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+.text-images p:hover {
+  /* background-color: white; */
+  color: #d8ab37;
+  border-color: #d8ab37;
+}
+.footer {
+  background-image: url("../images/bg2-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 283px 0 254px; */
+  height: 60vh;
+  margin-top: 120px;
+}
+.img-coll span {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  background: rgb(232, 77, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 77, 64, 0.6141807064622724) 0%,
+    rgba(205, 214, 104, 0.300455216266194) 28%,
+    rgba(0, 212, 255, 1) 77%
+  );
+  border-radius: 50%;
+  position: relative;
+  top: -70px;
+}
+.img-coll i {
+  position: relative;
+  top: 40px;
+  font-size: 60px;
+}
