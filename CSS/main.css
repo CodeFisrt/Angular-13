@@ -1,0 +1,119 @@
+.link {
+  list-style: none;
+  font-size: 1.3rem;
+ }
+
+.link li a {
+  color: #fff;
+  display: block;
+  padding: 3px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+.link li a:hover {
+  color: #d99f46;
+}
+
+.fa-brands {
+  margin: 15px 20px;
+}
+
+.social-media {
+  margin-left: 14px;
+  font-size: 29px;
+}
+
+.header-2 {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  /* height: 109vh; */
+}
+.logo {
+  /* margin: 53px -293px; */
+}
+
+.logo img {
+  height: 80px;
+}
+
+.menu {
+  list-style: none;
+  margin-top: 50px;
+  /* padding-right: 220px; */
+
+}
+
+/*.menu li {
+  padding: 16px 30px;
+
+}*/
+
+.item a {
+  display: block;
+  padding: 3px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.menu li:hover {
+  color: #d99f46;
+}
+
+/* Serach Box */
+.search {
+  /* width: 330px; */
+  float: left;
+  margin-left: 130px;
+  padding: 8px
+}
+
+.srch {
+  font-family: 'Times New Roman';
+  /* width: 248px; */
+  height: 63px;
+  background: transparent;
+  border: 1px solid #d99f46;
+  text-decoration-color: #fff;
+  font-size: 26px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn {
+  /* width: 100px; */
+  height: 40px;
+  background: #d99f46;
+  border: 2px solid #d99f46;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* icon */
+.shopping-icon {
+  font-size: 30px;
+}
+.content{
+  /* width: 60%; */
+  /* margin: 160px auto 0; */
+  text-align: center;
+  color: #fff;
+}
+.content h1{
+  font-size: 60px;
+
+}
+.content h3{
+  /* width: 80%;
+  margin: 280px auto 48px ; */
+  font-weight: 100;
+  line-height: 25px;
+}
+
