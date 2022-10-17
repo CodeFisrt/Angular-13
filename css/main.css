@@ -1,0 +1,239 @@
+.top-header{
+    background-color: #212529;
+    font-weight: 2px;
+    font-family: "Barlow Condensed";
+
+}
+.phone-wrap{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.email-wraper{
+    border-right: 1px solid #fff;
+}
+/* .social-media{
+    
+} */
+.nav{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.main-header{
+    color: #264247;
+    font-family: "Barlow Condensed";
+    font-weight: 500;
+    display: block;
+}
+.hero{
+    position: relative;
+
+}
+/* .big-banner{
+    background-image:url("images/h1-hero.jpg");;
+} */
+
+.bg-image {
+    background-image: url(/Traveling/images/h1_hero.jpg);
+    height: 100vh;
+}
+::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+ .hero-caption h1 {
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    color: #fde02f;
+    font-family: Satisfy;
+    line-height: 1,3;
+    margin-bottom: 17px;
+}
+.hero-caption p{
+    color: #fff;
+    text-align: center;
+    
+    font-size: 50px;
+    font-family: auto;
+
+}
+.input-form{
+    justify-content: center;
+    /* height: 191%;
+    width: 223%; */
+    margin: 30px;
+}
+.text{
+    width: 34%;
+}
+.col-xl-12{
+    display: inline-flex;
+    /* margin-top: 36px;
+    width: 200%;
+    padding-right: 200px; */
+    /* position: relative;
+    width: 100%;
+    min-height: 14px;
+    padding-right: 15px;
+    padding-left: 15px; */
+}
+
+
+/* section2 */
+/* .container{
+    justify-content: center;
+    border: 1px solid paleturquoise;
+} */
+.text-1 h5{
+    justify-content: center; 
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(103, 18, 223);
+    padding: 50px; 
+    margin: 30px;
+    
+    /* font-size: 1.25rem;
+    text-align: center; */
+
+}
+ .h5:hover {
+      color: #212529;
+}
+/* section3 */
+.section-title span{
+    color: orange;
+}
+.card-body{
+    padding: 28px 40px;
+    border: 1px solid #f0f1f2;
+    border-top: 0;
+}
+.starcolor{
+    color: #ffa800;
+    font-size: 19px;
+    margin-right: 10px;
+}
+.text{
+    font-weight: 600;
+    font-size: 24px;
+    color: #072740;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    text-align: left;
+}
+.dolor{
+    color: #4cafa4;
+    font-weight: 600;
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+}
+.caption{
+    display: inline-block;
+}
+/* section4 */
+.back{
+   
+    background-image: url(/Traveling/images/bg2.jpg);
+    height: 90vh;
+    margin-top: 150px;
+}
+.paraText{
+    text-align: center;
+}
+.para1{
+    font-family: "Barlow Condensed";
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 98px;
+}
+.para2{
+    font-family: 'Alkalami', serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.1;
+}
+.para3{
+    font-family: 'Alkalami', serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.1;
+    }
+   .video-icon{
+    background: #fde02f;
+    color: #000000;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+     text-align: center; 
+    line-height: 95px;
+    border-radius: 3px;
+    margin-left: 460px;
+    margin-top: 56px;
+    /* align-items: center; */
+   } 
+   /* section5 */
+   .comapy h6{
+  color: orange;
+  
+   }
+   .suppoer{
+    margin-right: 190px;
+    font-family: 'Alkalami', serif; ;
+   }
+   .form{
+    padding-top: 134px;
+   }
+   /* section6 */
+   .bg-image3{
+    background-image: url(/Traveling/images/testimonial_bg.jpg);
+    height: 100vh;
+   }
+   .rightquote{
+   text-align: center!important;
+
+   }
+   .sec6para1{
+    font-family: 'Alkalami', serif;
+    color: #00233f;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0 3px;
+    margin-bottom: 50px;
+    font-size: 30px
+   }
+   /* section7 */
+   .bg-image4{
+    background-image: url(/Traveling/images/footer_bg.jpg);
+    height: 100vh;
+    margin-top: 90px;
+   }
+   .footer-pera{
+    color: #ced9e1;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+    font-family: 'Alkalami', serif;
+   }
+   .linkItem{
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    text-transform: capitalize
+   }
+   .listItem{
+    color: #ced9e1;
+    font-weight: 300;
+    list-style: none
+   }
