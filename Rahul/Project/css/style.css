@@ -149,3 +149,70 @@ body {
 }
 
 /* End of Header Section*/
+
+
+/*Second Section Start */
+
+.bg-img {
+    background-image: url(..//img/Slide-1.webp);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-text {
+    padding: 90px 0px 0px 100px;
+}
+
+.slider-text h1 {
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-stretch: extra-expanded;
+    line-height: 52px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    animation-duration: 3s;
+    animation-name: fadeOutUp;
+}
+
+.slider-text p {
+    padding: 0px 333px 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 15px;
+    animation-duration: 4s;
+    animation-name: fadeOutUp;
+}
+
+.slider-text a {
+    padding: 16px 45px;
+    margin-top: 11px;
+    border-radius: 50px;
+    font-weight: 600;
+    animation-duration: 5s;
+    animation-name: fadeOutUp;
+}
+
+/* hover */
+
+.slider-text a:hover {
+    background-color: #f5ae21;
+}
+
+/* Animation Keyframes */
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* End of Second Section */
