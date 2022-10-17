@@ -1,0 +1,33 @@
+.fa-regula{
+    
+    font-size: 34px;
+}
+.nav-link{
+    color: black !important;
+    
+}
+.nav-link:hover{
+    color: green !important;
+    
+}
+.line{
+    margin: 0;
+}
+.navbar{
+    padding: 0px !important;
+}
+.banner-txt-color{
+    background-color: #80b435;
+    padding: 10px;
+}
+
+.carousel-caption {
+  
+    left: 50% !important;
+    padding-top: 0rem !important;
+    
+}
+.col-3 i{
+    margin-left: 120px;
+    
+}
