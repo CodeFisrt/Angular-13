@@ -21,10 +21,14 @@ git push
 git branch branch_name
 2] git checkout [your branch]
 3] changes stage ==> click Source Control==>click on + button
+
 5] commit your changes
 3] Push/checkin your code
 
-
+ 
+ 
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
 git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
