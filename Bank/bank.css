@@ -1,0 +1,143 @@
+ul li i {
+  list-style-type: none;
+  padding: 10px;
+}
+.para p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+ul.nav a:hover {
+  color: #11caff;
+}
+.call a:hover {
+  color: #11caff;
+}
+.call a {
+  text-decoration: none;
+  color: grey;
+}
+.call i {
+  color: #11caff;
+}
+ul.nav a {
+  color: grey;
+}
+.nav ul li {
+  list-style-type: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+li .btn {
+  color: #fff;
+  background-color: #11caff;
+}
+.nav-item {
+  padding-left: 50px;
+}
+ul.navbar-nav a:hover {
+  color: #11caff;
+}
+ul.dropdown-menu {
+  background-color: #11caff;
+}
+.navbar-nav {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+.btn.getMore {
+  background-color: #11caff;
+}
+.card h5 {
+  font-family: "Noto Sans", sans-serif;
+}
+.bgText {
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  z-index: 20;
+  text-shadow: 0 1px 2px rgba(244, 241, 241, 0.852);
+}
+.bgText h1 {
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 70px;
+}
+.bgText p {
+  color: grey;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 40px;
+}
+.conlt-text h2 {
+  font-family: "Noto Sans", sans-serif;
+}
+.conlt-text h2 {
+  font-family: "Noto Sans", sans-serif;
+}
+.button .btn-info:hover {
+  background-color: orange;
+}
+.textex {
+  background-image: url("http://themazine.com/html/inobiz/images/home/1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.7;
+}
+.Finance {
+  color: #11caff;
+}
+.textfinc h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Noto Sans", sans-serif;
+  text-shadow: 0 1px 2px rgba(244, 241, 241, 0.852);
+}
+.buss {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 30px;
+  align-items: start;
+}
+.card .card-body:hover .card-title i {
+  opacity: o.3;
+  color: red;
+}
+.card-body:hover {
+  background-color: #11caff;
+}
+.bgcol {
+  background-color: #11cbff2b;
+}
+.card-footer:hover {
+  background-color: orange;
+}
+.contact {
+  background-color: #11caff;
+}
+.usbtn a:hover {
+  background-color: orange;
+}
+.social i {
+  padding-right: 20px;
+}
+.listitm li {
+  list-style-type: none;
+}
+.inputemil .input-group-text {
+  background-color: #11caff;
+}
+.input-group-text:hover {
+  background-color: orange;
+}
+.social i:hover {
+  color: #11caff;
+}
+.footerAll h5{
+  color: grey;
+  font-family: 'Permanent Marker', cursive;
+font-size: 18px;
+letter-spacing: 20px;
+text-shadow: 0 5px 5px #11caff;
+}
+.footerAll i{
+  color: #11caff;
+}

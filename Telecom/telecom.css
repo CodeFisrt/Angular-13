@@ -1,0 +1,55 @@
+body {
+  font-family: "Alkalami", serif;
+  
+}
+.background {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.background-text h1 {
+  align-items: center;
+  font-size: 50px;
+}
+
+i {
+    margin-left: 10px;
+    font-size: 30px;
+    height: 30px;
+    vertical-align: middle;
+    color:#3535f3 ;
+}
+.spotText h2{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.spotText p{
+    font-family: 'Racing Sans One', cursive;
+}
+.router img {
+    width: 100%;
+    height: 300px;
+  }
+  .font1 h2{
+    font-family: "Alkalami", serif;
+    font-size: 70px;
+
+  }
+  
+    .card {
+         padding: 20px;
+}
+.taginfo h2{
+
+    font-family: 'Racing Sans One', cursive;
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+  .taginfo p{
+    font-family: 'Racing Sans One', cursive;
+  }
+  .mobile h3{
+    font-weight: bold;
+  }
