@@ -1,0 +1,257 @@
+body{
+    font-family: 'Line Awesome Brands';
+}
+.hotel{
+    padding: 50px 0px;
+    margin-left: 0px;
+}
+.container-fluid {
+    padding: 40px 10px;
+}
+.home{
+    padding-right: 30px;
+    padding-top: 100px;
+}
+.container-fluid a{
+    color: black;
+}
+.container-fluid a:hover{
+    color: blue;
+}
+.login-wrap{
+    padding: 50px 50px;
+   display: flex;
+}
+.login a{
+    text-decoration: none;
+   color: black;
+   padding-right: 15px;
+}
+.login a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.button a:hover{
+    color: blue;
+   background-color: white;
+}
+.button a{
+   
+    color: white;
+}
+.page1{
+    display: flex;
+}
+.text-heading{
+    padding-top: 150px;
+    padding-left: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    width: 650px;
+}
+.text-content{
+    padding-top: 10px;
+    padding-left: 70px;
+    width: 700px;
+    font-size: 17px;
+    color: grey;
+}
+.img{
+    padding-left: 50px;
+    padding-top: 40px;
+   
+}
+.booking{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 40px;
+    margin-top: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    position: relative;
+    left: 75px;
+    background-color: white;
+    width: 100%;
+}
+.dropdown{
+    /* padding: 10px 10px; */
+    margin-bottom: 20px;
+    /* margin-left: 30px; */
+    padding-left:0px;
+}
+.location{
+    margin-left: 40px;
+    
+}
+.location p{
+    padding-left: 35px;
+    margin: 0px;
+}
+
+.heading{
+    padding-top: 80px;
+    padding-left: 450px;
+    font-size: 45px;
+    font-weight: 700px;
+}
+.shape{
+   padding: 0px 500px;
+   
+}
+.page2-text{
+    padding: 70px 130px;
+    display: flex;
+    
+}
+.card-title:hover{
+    color: rgb(12, 140, 199);
+}
+
+.card:hover{
+    border-color: rgb(23, 137, 212);
+    
+}
+.card{
+    margin-right: 25px;
+    width: 240px;
+}
+.card-body{
+    text-align: center;
+}
+.card-text{
+    color: grey;
+}
+.near{
+    font-size: 45px;
+    font-weight: 900px;
+}
+.page3-img{
+    display: flex;
+    margin: 20px 70px;
+}
+.image-1{
+   padding: 30px 40px;
+   margin: 40px 40px;
+   display: inline-block;
+   /* grid-gap: 60px; */
+}
+.row{
+    padding: 30px 70px;
+   
+}
+.questions{
+    width: 900px;
+    padding: 70px 100px;
+}
+.form{
+    padding:70px 0px ;
+    width: 400px;
+    height: 550px;
+}
+.still{
+    padding-top: 20px;
+}
+.form-wrap{
+    border: 1px solid grey;
+    padding: 0px 70px;
+    border-radius: 10px;
+    height: 130%;
+}
+.wraper{
+    display: flex;
+}
+
+
+.images{
+    display: flex;
+    padding: 50px 60px;
+    
+}
+.jun{
+    position: absolute;
+    z-index: 2;
+}
+
+.image-1{
+    padding: 0px 0px;
+    margin: 0px 0px;
+ 
+}
+.div-last{
+    margin-top: 100px;
+       background-color: rgba(47, 115, 241, 0.842);
+
+}
+.div-text{
+    color: white;
+    padding-top: 50px;
+    padding-left: 0px;
+    text-align: center;
+   
+}
+form{
+    padding-left: 380px;
+    
+    width: 900px;
+}
+.button form button{
+    background-color: orangered;
+    margin-left: 250px ;
+    margin-bottom: 50px;
+}
+.footer{
+    background-color: rgba(20, 20, 20, 0.877);
+}
+.image-30{
+    padding-top: 100px;
+    padding-left:  600px;
+}
+.footer-img h3{
+    color: white;
+    padding-top:10px ;
+    padding-left: 530px;
+}
+.footer-img p{
+    color: rgba(255, 255, 255, 0.493);
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.div-logo{
+    margin-left: 520px;
+
+}
+.div-logo i{
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 14px;
+    padding: 7px 7px;
+    border-radius: 4px;
+}    
+.list{
+    color: rgba(255, 255, 255, 0.493);
+    
+
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.list ul li{
+    padding: 10px 50px;
+    list-style-type: none;
+}
+.call{
+    display: flex;
+     align-items: center;
+ }
+.last-link{
+    color: blue;
+    text-decoration: none;
+}
+.footer-last{
+    background-color: black;
+}
