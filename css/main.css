@@ -1,0 +1,91 @@
+body{
+
+}
+.top-header{
+    background: #14457b;
+   
+}
+.phone-wrap{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.soical-media {
+    /* border-left: 1px solid #fff; */
+    border-right: 1px solid #fff;
+    padding: 0px 15px;
+    line-height: 1.2px;
+}
+.container-fluid{
+    display:inline-flex;
+   
+}
+.container text {
+    justify-items: center;
+    width: 10%;
+}
+.a{
+    text-color: blue;
+}
+.pq-info-call i {
+    font-size: 20px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+.container-fuild data{
+    width: 50px;
+    height: 50px;
+    
+}
+.container-aayu {
+    background-color:rgb(244,246,249) ;
+
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+.section4{
+    background-color: pink;
+}
+.section5 {
+    background-color: antiquewhite;
+    
+}
+
+img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+
+.inner1{
+    overflow: hidden;
+}
+.inner1 img{
+    transition: all 1.5s ease;
+}
+.inner1:hover img{
+    transform: scale(1.2);
+}
+.inner1 :hover{
+    ta
+}
+.section7 span{
+   color: blue;
+}
+.section7 h1{
+    color: white;
+ }
+.blue-color{
+    color:#14457b;
+    text-align:center;
+}
+.footer{
+   height: 80%;
+}
