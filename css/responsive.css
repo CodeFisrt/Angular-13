@@ -35,6 +35,9 @@ Mediaquery
     .top-header i {
         font-size: 14px !important;
     }
+    .btn3-wrap{
+        justify-content: center !important;
+    }
  }
  @media (min-width: 576px) { 
     .top-header {
