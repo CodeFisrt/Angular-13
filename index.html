@@ -11,7 +11,7 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!--Bootstrap Css-->
     <link rel="stylesheet" href="css/style.css"><!-- Custome Css-->
-
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,19 +25,19 @@
     <!--Header Start here-->
     <section class="header">
         <div class="container-fluid header-inner ">
-            <div class="container text-white">
+            <div class="container text-white top-header">
                 <div class="row">
                     <div class="col-md-6 d-flex align-items-center">
                         <div class="info "><i class="fa-solid fa-envelope color-orange px-2"></i> info@webmail.com</div>
-                        <div class="location ps-5"><i class="fa-solid fa-location-dot color-orange px-2"></i>15/A, Nest
+                        <div class="location ps-md-1 ps-lg-5"><i class="fa-solid fa-location-dot color-orange px-2"></i>15/A, Nest
                             Tower, NYC</div>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <div class="col-md-6 d-flex justify-content-end align-items-center py-2 py-md-0">
                         <i class="fa-brands fa-facebook px-2 fs-5"></i>
                         <i class="fa-brands fa-twitter px-2 fs-5"></i>
                         <i class="fa-brands fa-instagram px-2 fs-5"></i>
                         <i class="fa-brands fa-dribbble px-2 fs-5"></i>
-                        <div class="header-btn ms-5 bg-orange p-3  px-4 text-center">Add Listing</div>
+                        <div class="header-btn ms-5 bg-orange p-1 p-md-2 p-lg-3 px-md-1 px-lg-4 text-center">Add Listing</div>
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
     </section>
     <!--Section-4 End-->
     <!--Section-5 Start-->
-    <section class="aboout-us">
+    <!-- <section class="aboout-us">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -286,7 +286,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Section-5 End-->
 
     <!--Section-6 Start-->
@@ -297,40 +297,55 @@
                     <div class="about mb-3 px-3 py-1">Our Services</div>
                     <div class="service-head h1">Our Main Focus</div>
                 </div>
-                <div class="services-wrapper d-flex pt-5 ">
-                    <div class="col-md-4 bg-white shadow text-center me-4">
-                        <img src="images/services-01.png" alt="" class="pt-5">
-                        <h1><a href="#"> Buy a home</a></h1>
-                        <p class="px-5 text-muted">over 1 million+ homes for sale available on the website, we can match
-                            you with a house you
-                            will want to call home.</p>
-                        <div class="py-4">
-                            <a href="#" class="btnWarrow text-muted">Find a Home
-                                <i class="fa-solid fa-arrow-right text-muted"></i> </a>
+                <div class="services-wrapper col-12 pt-5 ">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class=" bg-white shadow text-center">
+                                <img src="images/services-01.png" alt="" class="pt-5">
+                                <h1><a href="#"> Buy a home</a></h1>
+                                <p class="px-5 text-muted">over 1 million+ homes for sale available on the website, we
+                                    can match
+                                    you with a house you
+                                    will want to call home.</p>
+                                <div class="py-4">
+                                    <a href="#" class="btnWarrow text-muted">Find a Home
+                                        <i class="fa-solid fa-arrow-right text-muted"></i> </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="bg-white shadow text-center">
+                                <img src="images/services-02.png" alt="" class="pt-5">
+                                <h1><a href="#"> Buy a home</a></h1>
+                                <p class="px-5 text-muted">over 1 million+ homes for sale available on the website, we
+                                    can match
+                                    you with a house you
+                                    will want to call home.</p>
+                                <div class="py-4">
+                                    <a href="#" class="btnWarrow text-muted">Rent a home
+                                        <i class="fa-solid fa-arrow-right text-muted"></i> </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="bg-white shadow text-center">
+                                <img src="images/services-03.png" alt="" class="pt-5">
+                                <h1><a href="#"> Buy a home</a></h1>
+                                <p class="px-5 text-muted">over 1 million+ homes for sale available on the website, we
+                                    can match
+                                    you with a house you
+                                    will want to call home.</p>
+                                <div class="py-4">
+                                    <a href="#" class="btnWarrow text-muted">Sell a home
+                                        <i class="fa-solid fa-arrow-right text-muted"></i> </a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="col-md-4 bg-white shadow text-center me-4">
-                        <img src="images/services-02.png" alt="" class="pt-5">
-                        <h1><a href="#"> Buy a home</a></h1>
-                        <p class="px-5 text-muted">over 1 million+ homes for sale available on the website, we can match
-                            you with a house you
-                            will want to call home.</p>
-                        <div class="py-4">
-                            <a href="#" class="btnWarrow text-muted">Rent a home
-                                <i class="fa-solid fa-arrow-right text-muted"></i> </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 bg-white shadow text-center">
-                        <img src="images/services-03.png" alt="" class="pt-5">
-                        <h1><a href="#"> Buy a home</a></h1>
-                        <p class="px-5 text-muted">over 1 million+ homes for sale available on the website, we can match
-                            you with a house you
-                            will want to call home.</p>
-                        <div class="py-4">
-                            <a href="#" class="btnWarrow text-muted">Sell a home
-                                <i class="fa-solid fa-arrow-right text-muted"></i> </a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>

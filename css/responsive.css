@@ -1,0 +1,79 @@
+/* 
+Mediaquery
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+*/
+@media (min-width: 320px) { 
+    .top-header {
+        padding-top: 10px;
+    }
+    .top-header .info .location  {
+        font-size: 11px;
+    }
+    .top-header .info   {
+        font-size: 11px;
+    }
+    .top-header .location  {
+        font-size: 11px;
+    }
+    .top-header i {
+        font-size: 14px !important;
+    }
+ }
+ @media (min-width: 576px) { 
+    .top-header {
+        padding-top: 10px;
+    }
+    .top-header .info .location  {
+        font-size: 14px;
+    }
+    .top-header .info   {
+        font-size: 14px;
+    }
+    .top-header .location  {
+        font-size: 14px;
+    }
+    .top-header i {
+        font-size: 14px !important;
+    }
+ }
+ /*
+ @media (min-width: 768px) { 
+    body {
+        background-color: yellow;
+    }
+  }
+ 
+  @media (min-width: 992px) { 
+    body {
+        background-color: grey;
+    }
+  }
+
+  @media (min-width: 1200px) { 
+    body {
+        background-color: pink;
+    }
+  }
+
+  @media (min-width: 1440px) { 
+    body {
+        background-color: black;
+    }
+  } */
