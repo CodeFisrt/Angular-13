@@ -1,0 +1,5 @@
+{
+    "outline.showConstants": true,
+    "outline.showConstructors": true,
+    "terminal.integrated.allowMnemonics": false
+}
