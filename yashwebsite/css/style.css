@@ -39,7 +39,7 @@
     color: #ff783f;
 }
 .section-intro-img {
-    background: linear-gradient(rgba(5, 1, 51, 0.7), rgba(5, 1, 51, 0.7), rgba(0, 0, 0, 0)), url("/yash.github.io/images/banner-1.jpg");
+    background: linear-gradient(rgba(5, 1, 51, 0.7), rgba(5, 1, 51, 0.7), rgba(0, 0, 0, 0)), url("/yashwebsite/images/banner-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -241,66 +241,6 @@
     border-radius: 15px;
 }
 
-
-/* media querry for navbar start from here */
-@media (min-width: 100px) and (max-width: 1030px) {
-
-    .section-2 {
-        display: none;
-
-    }
-
-    .img-text-container-2 {
-        height: auto;
-        width: auto;
-        font-family: 'Rubik', sans-serif;
-        font-size: 16px;
-        line-height: 16px;
-    }
-
-    .img-text-container-2 h2 {
-        font-size: 35px;
-        line-height: 30px;
-        font-weight: 500;
-        padding-bottom: auto;
-        color: #fff;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .email-subcription-bar {
-        width: 100%;
-        height: auto;
-    }
-
-    .email-subcription-bar input {
-        width: 100%;
-        height: auto;
-    }
-
-    .footer {
-        width: 100%;
-        height: auto;
-        font-size: 16px;
-    }
-
-    /* toggle menue buttons css and js   */
-    .menu-buttons  {
-        display: block;
-
-    }
-
-
-   
-
-
-
-}
 .menu-buttons::after {
     content: " ";
     position: absolute;
@@ -326,6 +266,5 @@
     color: white;
     background-color: #0e0a38;
     background-color:#0e0a38;
-    z-index: ;
 
 }
