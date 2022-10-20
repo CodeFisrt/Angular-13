@@ -12,6 +12,9 @@
 {
     background-image: url("../img/home-background.jpg");
     background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: 50% 50%;
 }
 .hero-text
 {
@@ -24,4 +27,14 @@
 .cl8
 {
     padding-left: 10px;
+}
+.icons i
+{
+    color: rgb(11, 110, 190);
+    margin: 10px;
+}
+.page2
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
