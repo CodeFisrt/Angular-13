@@ -169,19 +169,17 @@
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
-.img-text-container-2 h2 {
-    font-size: 45px;
-    line-height: 50px;
-    font-weight: 700;
-    padding-bottom: 15px;
-    color: #fff;
+.text-para-1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+}
+.text-para-2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+  
 }
 
-.img-text-container-2 p {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-}
 .quolans {
     color: #FF630E;
 }
@@ -190,16 +188,8 @@
     width: 70px;
     border-radius: 40px
 }
-.email-subcription-bar {
-    height: 160px;
-    width: 1250px;
-    background-color: #130f40;
-    border-radius: 40px;
-}
-.input-email-1 {
-    height: 52px;
-    border: 0px;
-}
+
+
 .form-button input {
     height: 50px;
     padding: 12px 12px;
@@ -226,12 +216,10 @@
     height: 50px;
     width: 50px;
 }
-
 .footer {
     background-color: #130f40;
     color: white;
 }
-
 .footer-imgs {
     height: 90px;
     width: 90px;
@@ -240,7 +228,6 @@
     /* justify-content: space-around; */
     border-radius: 15px;
 }
-
 .menu-buttons::after {
     content: " ";
     position: absolute;
@@ -250,9 +237,6 @@
     display: none;
     color: white;
     z-index: 5;
-
-    
-
 }
 .menu-buttons{
     position: absolute;
@@ -265,6 +249,6 @@
     height: 100%;
     color: white;
     background-color: #0e0a38;
-    background-color:#0e0a38;
+  background-color:#0e0a38;
 
 }
