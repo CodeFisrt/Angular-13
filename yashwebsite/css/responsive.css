@@ -14,4 +14,48 @@
 // @media (min-width: 1400px) { ... }
  */
 
+
+ @media (min-width: 100px  ) { 
+
+
+  }
+  @media (min-width: 100px) and (max-width: 320px){
+    body{
+      background-color: red;
+  }
+  .navigation-bar-1 {
+    display: none;
+  }
+  .navigation-bar-2{
+    display: none !important;
+  
+  }
+  .thisisok{
+    display: none;
+
+  }
+  .rounded{
+    height: 400px ;
+    width: 200px;
+  }
+  .footer{
+    display: none;
+  }
  
+  .section-8{
+    display: none;
+  }
+  .img-text-container-2{
+   
+    height: 600px !important;
+    width: 300px !important;
+   
+    
+  }
+  .email-subcription-bar {
+    height: 75px;
+    width: 500px;
+    background-color: #130f40;
+    border-radius: 30px;
+}
+  }
