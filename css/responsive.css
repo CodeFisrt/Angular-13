@@ -41,7 +41,7 @@ Mediaquery
  }
  @media (min-width: 576px) { 
     .top-header {
-        padding-top: 10px;
+        padding-top: 0px;
     }
     .top-header .info .location  {
         font-size: 14px;

@@ -129,3 +129,7 @@ body {
     font-size: 15px;
     text-decoration: none;
 }
+
+.properties-head{
+    font-weight: 700;
+}
