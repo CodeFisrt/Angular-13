@@ -14,10 +14,6 @@ body{
     background-repeat: no-repeat;
     height: 82vh;
 }
-/*.button-wrap{
-    width: 60%;
-    color: #4caf50;
-    border-color: #4caf50;  */
 
 
 .btn.disabled, .btn:disabled, fieldset:disabled .btn{
@@ -38,11 +34,7 @@ body{
    
     margin: 0 10px;
    }
-   /* .navbar-nav .btn > li {
-        width: 150px;
-    height: 50px;
-}
-     */
+   
 .banner-inner .dg-header-1 {
         font-size: 65px;
         font-family: 'Open Sans', sans-serif;
@@ -51,7 +43,7 @@ body{
  }
  .banner-inner .banner-details {
     margin-top: 20px;
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 26px;
     font-family: 'Bitter', serif;
 }
@@ -100,20 +92,10 @@ body{
     
 }
 
-/* .single-img-container .single-img .side-gray-border {
-    padding: 80px 110px 70px 78px;
-    border: #327691 solid 2px;
-    position: relative;
-    z-index: 9;
-    margin-right: -100px;
-} */
+
 .single-img{
     padding-left: 60px ;
 }
-
-
-/* .single-img-container .img-right-part {
-    box-shadow: 10px 10px 0 #65e214; */
 
 .single-img-content::before{
     width: 20px;
@@ -149,8 +131,63 @@ body{
     padding-left: 52px;
 }
 .market-detail{
-    padding-top: 200px;
+    padding-top: 111px;
     /* font-size: 40px; */
 }
 
+.work-block{
+    padding-top: 30px;
+    padding-left: 187px;
+    padding-bottom: 30px;
+    padding-right: 187px;
+}
+.head{
+    font-size: 40px;
+    /* background-color: #65E214; */
+}
+
+.peaple-responce{
+    padding: 20px 20px 20px 20px;
+    background-color: #3d3d3f;
+    color: #fff;
+    padding: 27px 0 34px 0;
+    justify-content: space-between;
+}
+.count-global-stat h1 {
+    font-size: 40px;
+    color: #65E214;
+    margin: 0;
+}
+
+.con-details{
+    background-color: #65e214;
+    text-align: center;
+
+}
+
+.footer-top .footer-section-title {
+    margin: 0;
+    font-size: 20px;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    font-size: 30px;
+}
+ .footer-list li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.footer-blocks{
+    padding-top: 56px;
+}
+.main-footer{
+    background-color: #3d3d3f;
+    margin-top: 50px;
+}
+ ul li a:hover{
+    color: #65E214;
+}
+ul li:hover{
+    color: #65E214;
+}
 
