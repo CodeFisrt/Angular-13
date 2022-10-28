@@ -50,6 +50,14 @@
     width: 370px;
     height: 540px;
 }
+.bottom{
+    background-color: #181d38 ;
+}
 
-
+.footer ol li a {
+    text-decoration: none;
+}
+.footer ol li{
+    list-style: none;
+}
 
