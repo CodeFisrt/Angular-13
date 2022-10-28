@@ -1,0 +1,24 @@
+.bg-img{
+    background-color: black;
+    opacity: 0.5;
+    
+}
+span{
+    font-size: 50px;
+}
+
+.button-2{
+    display: inline-block;
+    padding: auto;
+}
+.para{
+    font-size: 15px;
+}
+.head-content span{
+    font-size: 40px;
+    color: greenyellow;
+}
+.footer span{
+    color: greenyellow;
+    font-size: 20px;
+}
