@@ -14,6 +14,10 @@ body {
     background-color: #FF5A3C;
 }
 
+.bg-green {
+    background-color:mediumseagreen;
+}
+
 .header-btn:hover {
     background-color: #cb3421;
     cursor: pointer;
@@ -105,31 +109,57 @@ body {
     font-size: 15px;
 }
 
-.aboutUs-list-2{
+.aboutUs-list-2 {
     list-style-type: none;
     padding: 20px 0px;
 }
 
-.ourServices{
+.ourServices {
     background-color: #d7e4eb;
     padding-bottom: 120px;
     margin: 0px 0px 50px 0px;
 }
-.service-head{
+
+.service-head {
     font-weight: 700;
 }
-.services-wrapper h1,a{
+
+.services-wrapper h1,
+a {
     padding: 15px 0px;
     font-weight: 700;
     color: black;
     font-size: 24px;
     text-decoration: none;
 }
-.services-wrapper .btnWarrow{
+
+.services-wrapper .btnWarrow {
     font-size: 15px;
     text-decoration: none;
 }
 
-.properties-head{
+.properties-head {
     font-weight: 700;
+}
+
+.inner-img {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    padding: 5px 20px;
+    top: 10px;
+    right: 10px;
+}
+
+.img-bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    padding: 5px 5px;
+}
+.img-bt-2{
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 2px 5px;
 }
