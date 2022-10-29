@@ -1,0 +1,634 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------- nav -----------*/
+
+
+.top-header {
+    align-self: center;
+    background-color: #f3f7ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-header-content {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.top-header a:hover {
+    color: #924dff;
+}
+
+.top-header span:hover {
+    color: #924dff
+}
+
+.top-header ul {
+    list-style: none;
+}
+
+.top-header li>a {
+    text-decoration: none;
+}
+
+.top-header span {
+    color: #696969;
+}
+
+
+.top-header-content1 {
+    padding-left: 0;
+    text-align: end;
+    margin-bottom: 0;
+    margin-top: 8px;
+    list-style-type: none;
+    margin-right: 200px;
+}
+
+.top-header-content1 li {
+    display: inline-block;
+    margin-right: 30px;
+    /* border: none; */
+}
+
+.top-header-content1 li>a {
+    color: #696966;
+}
+
+.top-header-content1 li>select {
+    background-color: transparent;
+    font-size: 15px;
+    color: #696966;
+    border: none;
+}
+
+
+
+/*--------- header  ---------*/
+
+.navbar_top .dropdown a {
+    color: #2f3045;
+    font-weight: 700;
+}
+
+.navbar_top .dropdown a:hover {
+    color: #924dff;
+}
+
+.navbar-se input{
+    border-radius:50px;
+}
+
+.navbar-se button{
+    border: none;
+    border-radius:10px;
+    color: white;
+    background-color:#924dff ;
+}
+
+.navbar-se button:hover {
+    background-color: red;
+    width: auto;
+}
+
+
+
+
+
+
+/*------- form ------------*/
+
+.form-content {
+    padding-top: 200px;
+    /* border: none; */
+    /* border: 1px solid green; */
+}
+
+.form-content h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+}
+
+.form-content p {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.book-form input {
+    border: 1px solid #e5e5e5;
+    /* color: #2d33af; */
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.book-form button {
+    border: none;
+    margin: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: #924dff;
+}
+
+.book-form button:hover {
+    background-color: red;
+}
+
+/*
+.form-content1 {
+    padding-top: 45px;
+} */
+
+
+
+/*----------------  Features  ----------*/
+
+.featuresall {
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #25283a;
+    padding: 130px 100px 80px;
+}
+
+.featuresall p {
+    color: #b9baca;
+}
+
+.featuresall h3 {
+    color: white;
+}
+
+
+
+
+/*-------------------- destination ----------------*/
+
+/* .destination-area {
+    padding-bottom: 75px;
+    padding-top: 100px
+} */
+
+.section-tittle {
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.section-tittle h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card-img {
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    margin: 150px;
+    /* margin-left:none; */
+    /* padding: 50px; */
+    width: auto;
+    /* transition: 1s;
+    transform: scale(1); */
+
+}
+
+.card-img p {
+    color: #696969;
+}
+
+.card-img p>span {
+    color: #924dff;
+}
+
+/*---------------- Customers -----------------*/
+
+.content-why {
+    /* padding-right: 30px; */
+    text-align: center;
+}
+
+.content-why img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-choose {
+    padding-left: 30px;
+}
+
+.content-choose h2 {
+    color: #2f3045;
+}
+
+.content-choose p {
+    color: #696969;
+}
+
+.content-choose .list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.vacation-div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* .content-img img:hover {
+    transition: 3s;
+    transition-delay: 1s
+} */
+
+/* --------------- Property booking ---------------- */
+.content-img img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.content-pro h1 {
+    font-weight: bold;
+    color: #2f3045;
+}
+
+.content-pro p {
+    color: #696969;
+}
+
+.content-img h3 {
+    color: #2f3045;
+}
+
+.content-img span {
+    color: #ff5b4a;
+}
+
+ 
+
+
+/*------------------- buget ----------------------*/
+
+
+
+.book-content h1 {
+    padding-bottom: 30px;
+    color: #2f3045;
+}
+
+.book-content-img img{
+    height: 560px;
+}
+
+.book-content-img1 img{
+    height: 260px;
+}
+
+.book-content-img img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.book-content-img h3{
+    /* padding-bottom: 10px; */
+    color: #2f3045;
+}
+
+.img-fluid img:hover{
+    transition: 1s;
+    transform: scale(1.0);
+}
+
+
+
+/* .single-book .col-6 {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+
+} */
+
+
+
+
+
+/*----------------- play store ----------------- */
+.free-download {
+    margin: 100px;
+}
+
+.play-store {
+    align-items: center;
+}
+
+.play-store h2 {
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.play-store p {
+    line-height: 30px;
+}
+
+.play-store-btn {
+    margin-top: 30px;
+}
+
+.play-store-btn a {
+    margin-right: 30px;
+}
+
+
+
+/* --------------------- guest ------------------------- */
+.guest-service {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.guest1 img {
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.guest1 img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.guest1 span {
+    color: #924dff;
+}
+
+.guest1 p {
+    color: #696969;
+}
+
+
+
+
+/* --------------- book flight --------------- */
+
+.book-flight {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content-choose h2 {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*------------------- Subscribe  --------------- */
+
+.Subscribe {
+    display: flex;
+    text-align: center;
+    margin: 90px;
+    margin-top: 10px;
+    color: white;
+}
+
+.Subscribe .container {
+    background: rgb(245, 121, 175);
+    background: radial-gradient(circle, rgba(245, 121, 175, 1) 0%, rgba(99, 157, 224, 1) 85%);
+}
+
+.Subscribe .row {
+    margin: 90px;
+}
+
+.Subscribe h2 {
+    font-size: 2.5rem;
+}
+
+.Subscribe input {
+    border: none;
+    width: 66%;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.Subscribe button {
+    height: 50px;
+    margin-bottom: 6px;
+    margin-left: -128px;
+}
+
+.Subscribe button:hover {
+    /* display: flex; */
+    background-color: red;
+
+}
+
+
+
+
+/* .Subscribe .container img{
+    position: relative;
+    padding-right: 1000px;
+    padding-bottom: 100px;
+    top: 20px;
+    left: 20px;
+} */
+
+
+
+
+
+
+
+/*--------------- Copyright ------------*/
+
+.area {
+    background-color: #25283a;
+    padding-top: 30px;
+
+}
+
+.area img {
+    width: 100px;
+    vertical-align: middle;
+    height: 43px;
+    margin-bottom: 15px;
+}
+
+.area .container-fluid {
+    /* background-color: #25283a; */
+    /* text-decoration: none; */
+    color: white;
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 89%;
+    padding-left: 85px;
+
+}
+
+.container-fluid p {
+    color: #b9baca;
+}
+
+.container-fluid li {
+    list-style: none;
+    color: #b9baca;
+    margin: 10px;
+}
+
+.container-fluid ul {
+    padding: 2px;
+}
+
+.container-fluid li>a {
+    text-decoration: none;
+    color: white;
+    color: #b9baca;
+}
+
+
+.Contact-div span {
+    color: white;
+}
+
+
+.sub-div .container {
+    background-color: #924dff;
+    display: flex;
+    text-align: center;
+}
+
+.social a:hover {
+    color: white;
+    background-color: rgb(110, 69, 144);
+    border-radius: 30px;
+    transition: 1s;
+
+}
+
+.social {
+    font-size: 30px;
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 20px;
+
+}
+
+.social a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: var(--whiteColor);
+    background-color: #68697d4d;
+}
+
+
+.copyright-area {
+    border-top: 1px solid rgba(104, 105, 125, .3);
+    list-style: none;
+    text-align: center;
+    font-weight: 200px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright-area span {
+    color: white;
+}
+
+.copyright-area a:hover {
+    /* text-decoration: none; */
+    color: white;
+}
+
+.copyright-area a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright-area p {
+    color: #b9baca;
+}
+
+
+
+
+
+/* 
+ 
+.flight-details {
+    background-image: url(/website-2/image/flight-bg.jpg);
+     background-position: center center;
+}
+.page-title{
+    text-align: center;
+    color: white;;
+}
+.page-title img{
+    left: 0;
+}
+.page-tittle p {
+    color: white;
+}
+
+.page-title form{    
+    background-color: white;
+    border-radius: 60px;
+}
+.form .form-start label{
+    color: black;
+}
+.container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px
+    
+}
+.container p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 31px;
+}
+
+
+
+.york-div {
+    background-color: #f3f7ff;
+}
+.york-div a {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+  */
