@@ -1,0 +1,67 @@
+@media only screen and (max-width: 360px) {
+.hero-text h1 {
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+}
+@media only screen and (max-width:480px){
+    .hero-text h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    line-height: 40px;
+}
+}
+@media only screen and (max-width:480px){
+    .manage u{
+        padding-top: 50px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:480px){
+    .manage {
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .manage h3 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width:480px){
+    .main-footer {
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:480px){
+    .footer ul {
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.contact-social ul li a{
+    font-size: 35px;
+     margin: 0px;
+     width: 40px;
+    border-radius: 20px;
+    font-size: 20px;}
+}
+@media only screen and (max-width:480px) {
+    .brands{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:480px){
+.footer ul li {
+    width: 10px;
+    padding: 0px;
+    margin-right: 0px;
+}
+}
+@media only screen and (max-width:480px) {
+    .footer ul li a {
+        padding: 0px;
+    }
+}

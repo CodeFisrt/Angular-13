@@ -5,7 +5,7 @@
 }
 .navbar-brand img {
     width: 150px;
-    margin-left: 30px;
+
 }
 
 .page1 
@@ -16,18 +16,26 @@
     height: auto;
     background-position: 50% 50%;
 }
-.hero-text
+.page1 img
+{
+    width: 100%;
+    margin-top: 175px;
+}
+/* .hero-text
 {
     
    margin-left: 80px;
     justify-content: center;
     margin-top: 80px;
 
+} */
+.hero-text h1{
+    padding-top: 200px;
 }
-.cl8
+/* .cl8
 {
     padding-left: 10px;
-}
+} */
 .icons
 {
     margin-left: -1px;
@@ -47,9 +55,14 @@
     color: rgb(11, 110, 190);
     margin: 10px;
 }
-.home_btn
+.home_btn a
 {
-    padding: 30px;
+    margin: 0 10px 15px;
+}
+.home_btn a i {
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
 .page2
 {
@@ -88,10 +101,15 @@
   {
     text-align: center;
     display: inline-block;
+    
+  }
+  .mockup img{
+    width: 100%;
   }
   .page3-img img
   {
     padding: 0 30px;
+    width: 100%;
   }
   .pagetitle
   {
@@ -209,21 +227,24 @@
     margin-bottom: 10px;
     padding: 30px;
 }
-.downloads
+.down-logo
 {
-    padding: 50px 0;
     background-color: violet;
 }
-.col-md-offset-3 
+.down-logo a img{
+    padding: 20px;
+}
+/* .col-md-offset-3 
 {
     margin-left: 25%;
-}
+}  */
 input#email1
 {
     border: 1px solid lightgray;
-    height: 50px;
-    margin: 20px;
+    height: 40px;
+    margin-bottom: 20px;
     box-shadow: none;
+    width: 200px;
 }
 input#subs
 {
@@ -287,8 +308,9 @@ input#subs:hover
 .main-footer
 {
     background: black;
-    padding: 20px;
+    
 }
 .footer ul li a{
     color: #fff;
+    padding: 10px;
 }
