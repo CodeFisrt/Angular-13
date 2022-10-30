@@ -1,0 +1,60 @@
+body{
+    
+}
+
+.digital{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+}
+.happy{
+    font-size: 35px;
+    top: 100px;
+    
+    color: white;
+}
+.client{
+    top: 160px;
+    left: 180px;
+    color: rgba(7, 142, 252, 0.979);
+    font-size: 25px;
+}
+.happy,.client ,.online,.appointment,.job,.satisfaction{
+    position: absolute;
+}
+.online{
+    font-size: 35px;
+    top: 100px;
+    left: 650px;
+    color: white;
+}
+.appointment{
+    top: 160px;
+    left: 570px;
+    color: rgba(7, 142, 252, 0.979);
+    font-size: 25px;
+}
+.job{
+    font-size: 35px;
+    top: 100px;
+    left: 1050px;
+    color: white;
+}
+.satisfaction{
+    top: 160px;
+    left: 1000px;
+    color: rgba(7, 142, 252, 0.979);
+    font-size: 25px;
+}
+.mentee{
+    color: rgb(9, 15, 51);
+    font-size: 23px;
+    font-weight:bolder;
+    padding: 8px 0px;
+}
+.icon{
+    font-size: 20px;
+}

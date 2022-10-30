@@ -1,12 +1,13 @@
 body{
     font-family: 'Line Awesome Brands';
+    font-family: 'Line Awesome Free';
 }
 .hotel{
-    padding: 50px 0px;
+    padding: 10px 0px;
     margin-left: 0px;
 }
 .container-fluid {
-    padding: 40px 10px;
+    padding: 0px 10px;
 }
 .home{
     padding-right: 30px;
@@ -19,7 +20,7 @@ body{
     color: blue;
 }
 .login-wrap{
-    padding: 50px 50px;
+    padding: 10px 50px;
    display: flex;
 }
 .login a{
@@ -56,35 +57,32 @@ body{
     font-size: 17px;
     color: grey;
 }
-.img{
-    padding-left: 50px;
-    padding-top: 40px;
-   
-}
+
 .booking{
     display: flex;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 40px;
     margin-top: 50px;
     border: 1px solid gainsboro;
     border-radius: 5px;
     position: relative;
+    
     left: 75px;
     background-color: white;
     width: 100%;
 }
 .dropdown{
-    /* padding: 10px 10px; */
-    margin-bottom: 20px;
-    /* margin-left: 30px; */
-    padding-left:0px;
+    margin-bottom: 10px;
+    padding-left:2px;
 }
+
 .location{
-    margin-left: 40px;
-    
+    margin-left: 0px;
+
 }
+
 .location p{
-    padding-left: 35px;
+    padding-left: 15px;
     margin: 0px;
 }
 
@@ -124,19 +122,20 @@ body{
 .near{
     font-size: 45px;
     font-weight: 900px;
+    padding-left: 50px;
 }
 .page3-img{
     display: flex;
     margin: 20px 70px;
 }
+
 .image-1{
    padding: 30px 40px;
    margin: 40px 40px;
    display: inline-block;
-   /* grid-gap: 60px; */
 }
 .row{
-    padding: 30px 70px;
+    padding: 30px 0px;
    
 }
 .questions{
@@ -145,7 +144,7 @@ body{
 }
 .form{
     padding:70px 0px ;
-    width: 400px;
+    width: 350px;
     height: 550px;
 }
 .still{
@@ -153,29 +152,38 @@ body{
 }
 .form-wrap{
     border: 1px solid grey;
-    padding: 0px 70px;
+    padding: 0px 40px;
     border-radius: 10px;
-    height: 130%;
+    height: 120%;
 }
 .wraper{
     display: flex;
 }
 
-
-.images{
-    display: flex;
-    padding: 50px 60px;
-    
-}
-.jun{
+.image-1 button,.image-2 button,.image-3 button{
     position: absolute;
     z-index: 2;
 }
+.images{
+    display: flex;
+    padding: 50px 100px;
+   
+}
 
+.image-1 p , .image-2 p , .image-3 p {
+    padding: 10px 15px;
+    display: inline-block;
+    color: gray;
+}
 .image-1{
-    padding: 0px 0px;
+    padding: 0px 20px;
     margin: 0px 0px;
- 
+    
+}
+
+.media img{
+    margin: 10px 10px;
+    padding-left: 70px;
 }
 .div-last{
     margin-top: 100px;
@@ -229,6 +237,9 @@ form{
     padding: 7px 7px;
     border-radius: 4px;
 }    
+.div-logo:hover{
+    color: rgba(93, 131, 201, 0.74);
+}
 .list{
     color: rgba(255, 255, 255, 0.493);
     
@@ -237,21 +248,38 @@ form{
 .list ul{
     display: flex;
     justify-content: center;
-    margin: 30px 0px;
+    margin: 0px 0px;
 }
 
 .list ul li{
-    padding: 10px 50px;
+    padding: 50px 50px;
     list-style-type: none;
 }
-.call{
-    display: flex;
-     align-items: center;
- }
-.last-link{
-    color: blue;
-    text-decoration: none;
+.list ul li:hover{
+    color: rgb(80, 80, 224);
+    text-decoration: underline;
 }
-.footer-last{
-    background-color: black;
+.last{
+padding-left: 100px;
+display: flex;
+}
+.last i , .massege i{
+font-size: 40px;  
+padding-right: 20px;  
+}
+.massege{
+    padding-left: 80px;
+    display: flex;
+}
+.copyright{
+    padding-left: 300px;
+    padding-top: 20px;
+}
+.copyright-footer{
+    display: flex;
+   padding: 20px 0px;
+    background-color: rgba(27, 25, 25, 0.582);
+}
+.number, .mail{
+    color: white;
 }

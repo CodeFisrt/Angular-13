@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mentoring</title>
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        .page-1 {
+            background-image: url(images/img-2.jpg);
+            height: 450px;
+        }
+
+        .heading {
+            font-size: 50px;
+            font-weight: 700;
+            color: white;
+            margin-top: 55px;
+        }
+
+        .content {
+            font-size: 25px;
+            color: white;
+        }
+
+        .form-control {
+            width: 250px;
+            padding: 15px 20px;
+            border-radius: 30px;
+
+        }
+
+        .search {
+            align-items: center;
+            width: 400px;
+            padding: 15px 20px;
+            border-radius: 30px;
+        }
+
+        .page-2 {
+            background-image: url(images/img-3.jpg);
+        }
+
+        .mentor {
+            margin-top: 40px;
+            font-size: 22px;
+        }
+
+        .how-works h1 {
+            font-size: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header start here -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 py-3  mx-0">
+                    <img src="images/img-1.png" alt="" width="160px">
+                </div>
+                <div class="col-8 mx-0 px-0 ">
+                    <ul class="list d-flex ">
+                        <li class="list-group-item py-4 "> <a href="#" class="text-decoration-none">Home</a></li>
+                        <li class="list-group-item px-1 py-3">
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Mentor
+                                </button>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item " href="#">Mentor Dashboard</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Bookings </a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Schedule Timing</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Mentee List</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">Mentee Profile</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Chat</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Invoices</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Profile Setting</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Reviews</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Mentor Register</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-group-item px-1 py-3">
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Mentee
+                                </button>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item " href="#">Mentor </a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Search Mentor</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Mentor Profile</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Bookings </a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Booking Success</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Mentee Dashboard</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">favourites</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Chat</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Profile Settings</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Change Password</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-group-item px-1 py-3">
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </button>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item " href="#">Voice Call</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Video call</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Search Mentors </a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Components</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">Invoices</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Starter Page</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Login</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Register</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Forgot Password</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-group-item px-1 py-3">
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Blog
+                                </button>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item " href="#">Blog Lists</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">BLog Grid</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Blog details</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-group-item py-4">Admin</li>
+                    </ul>
+                </div>
+                <div class="col-2 d-flex ">
+                    <div class="div  py-4 px-4 ">
+                        <a href="#" class="text-decoration-none">Login</a>
+                    </div>
+                    <div class="div py-3">
+                        <button type="button" class="btn btn-primary btn-lg">REGISTER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="page-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="heading text-center ">Search Teacher in  Mentoring <br> Appointment</p>
+                        <p class="content text-center">Discover the best Mentors & institutions the city nearest to you.
+                        </p>
+                        <div class="d-flex justify-content-center ">
+                            <input class="form-control me-2 align-self-center " type="search"
+                                placeholder="Search Location" aria-label="Search">
+                            <input class=" search form-control me-2" type="search"
+                                placeholder="Search School,Online educational centers, etc" aria-label="Search">
+                                <!-- <i class="fa-sharp fa-solid fa-location-dot"></i>      -->
+                                <i class="fa-sharp fa-solid fa-magnifying-glass-location py-3 px-3 "></i>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="page-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="mentor">MENTORING FLOW</p>
+                        <h1 class="how-works">How does it works?</h1>
+                        <p>Are you looking to join online institutions? Now it's very simple, Sign up with <br>
+                            mentoring</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body py-5">
+                               <h5 class="card-title text-center">Sign up</h5>
+                                <p class="card-text text-center">Are you looking to join online Learning? Now it's very
+                                    simple, Now Sign up</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body py-5">
+                                
+                                <h5 class="card-title text-center">Collaborate</h5>
+                                <p class="card-text text-center">Collaborate on your own timing, <br> by scheduling with
+                                    mentor <br> booking</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body py-5">
+                                
+                                <h5 class="card-title text-center">Improve & Get Back</h5>
+                                <p class="card-text text-center">you can gather different skill <br> set, and you can become
+                                    <br> mentor too</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mentor">MENTORING GOALS</p>
+                    <h1 class="how-works">Popular Mentors</h1>
+                    <p>Do you want to move on next step? Choose your most popular leaning <br> mentors, it will help you
+                        to achieve your professional goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row py-4">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Donna Yancey</h5>
+                            <p class="card-text">Digital Marketer</p>
+                            <div class="rating d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star px-1"></i>
+                               <p>4.4</p>
+                            </div>
+                           
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>James Amen</h5>
+                            <p class="card-text">UNIX, Calculus,Trigonometry</p>
+                            <div class="rating d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star px-1"></i>
+                               <p>4.4</p>
+                            </div>
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Marvin Downey</h5>
+                            <p class="card-text">ASP.NET,Computer Gaming</p>
+                            <div class="rating d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star px-1"></i>
+                               <p>4.4</p>
+                            </div>
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Betty Hairston</h5>
+                            <p class="card-text">Computer Programming</p>
+                            <div class="rating d-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star px-1"></i>
+                               <p>4.4</p>
+                            </div>
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mentor">CHOOSE THE</p>
+                    <h1 class="how-works">Different All Learning Paths</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-9.jpg " alt="" width="270px">
+                    <span class="digital px-3 pt-0 mt-0">Digital Marketer</span>
+                </div>
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-10.jpg" alt="" width="270px">
+                    <span class="digital px-4">Ui Designer</span>
+                </div>
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-11.jpg" alt="" width="270px">
+                    <span class="digital px-5">IT Security</span>
+                </div>
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-12.jpg" alt="" width="270px">
+                    <span class="digital px-5">Front-End <br> Developer</span>
+                </div>
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-13.jpg" alt="" width="270px">
+                    <span class="digital">Web Developer</span>
+                </div>
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-14.jpg" alt="" width="270px">
+                    <span class="digital px-4">Administrator</span>
+                </div>
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-15.jpg" alt="" width="270px">
+                    <span class="digital px-3">Project Manager</span>
+                </div>
+                <div class="col-3 position-relative py-3">
+                    <img src="images/img-16.jpg" alt="" width="270px">
+                    <span class="digital px-3">PHP Developer</span>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="view-all text-center my-3">
+                    <button type="button" class="btn btn-primary">View All</button>
+                 </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+             <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mentor">Lorem ipsum dolor</p>
+                    <h1 class="how-works">The Blogs & News</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 px-5 py-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-17.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="text-decoration-none">Tyrone Roberts</a>
+                            <div class="time d-flex">
+                                <i class="fa-regular fa-clock px-1 py-1"></i>
+                                <p>4 Dec 2019</p>
+                            </div>
+                            
+                          <p class="card-text fw-bold">What is Lorem Ipsum? <br> Lorem Ipsum is Simply</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 px-4 py-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-18.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="text-decoration-none">Brittany Gracia</a>
+                            <div class="time d-flex">
+                                <i class="fa-regular fa-clock px-1 py-1"></i>
+                                <p>3 Dec 2019</p>
+                            </div>                         
+                             <p class="card-text fw-bold">Countary to popular belief, <br> Lorem Ipsum is</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 px-2 py-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-19.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="text-decoration-none">Allen Davis</a>
+                            <div class="time d-flex">
+                                <i class="fa-regular fa-clock px-1 py-1"></i>
+                                <p>3 Dec 2019</p>
+                            </div>                          
+                            <p class="card-text fw-bold">Standard Chunk of <br> Lorem Ipsum used</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3 py-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/img-20.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="text-decoration-none">William Lawrence</a>
+                            <div class="time d-flex">
+                                <i class="fa-regular fa-clock px-1 py-1"></i>
+                                <p>2 Dec 2019</p>
+                            </div>                       
+                         <p class="card-text fw-bold">The Standard  Lorem Ipsum <br> passage, uesd</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="view-all text-center my-3">
+                    <button type="button" class="btn btn-primary">View All</button>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="conatiner-fluid">
+            <div class="row">
+                <div class="col-12 position-relative py-5">
+                        <img src="images/img-21.jpg " alt="" width="100%" height="130%">
+                        <div class="row">
+                            <div class="col text-center ">
+                                <span class="happy ">500+</span>
+                                <span class="client">HAPPY CLIENTS</span>
+                            </div>
+                            <div class="col text-center ">
+                                <span class="online ">120+</span>
+                                <span class="appointment">ONLINE APPOINTMENT</span>
+                            </div>
+                            <div class="col text-center ">
+                                <span class="job">100%</span>
+                                <span class="satisfaction">JOB SATISFICATION</span>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+        </div>
+    </section>
+    <section>
+        <!-- footer start her -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 py-5  px-4">
+                    <img src="images/img-1.png" alt="" width="250px">
+                    <p class="lorem py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua.</p>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f px-2"></i>
+                        <i class="fa-brands fa-twitter "></i>
+                        <i class="fa-brands fa-linkedin-in px-2"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-dribbble px-2"></i>  
+                    </div>
+                    
+                </div>
+                <div class="col-3">
+                    <ul class="list py-4">
+                        <li class="mentee list-group-item py-4">For Mentee</li>
+                        <li class="list-group-item py-1">Search Mentors</li>
+                        <li class="list-group-item ">Login</li>
+                        <li class="list-group-item py-1">Register</li>
+                        <li class="list-group-item">Booking</li>
+                        <li class="list-group-item py-1">Mentee Dashboard</li>
+                      </ul>
+                </div>
+                <div class="col-3">
+                    <ul class="list py-4">
+                        <li class="mentee list-group-item py-4">For Mentors</li>
+                        <li class="list-group-item py-1">Appointments</li>
+                        <li class="list-group-item ">Chat</li>
+                        <li class="list-group-item py-1">Login</li>
+                        <li class="list-group-item">Register</li>
+                        <li class="list-group-item py-1">Mentor Dashboard</li>
+                      </ul>
+                </div>
+                <div class="col-3">
+                    <ul class="list py-4 px-0">
+                        <li class="mentee list-group-item py-4">Contant Us</li>
+                        <div class="location d-flex">
+                            <i class="fa-solid fa-location-dot px-3"></i>
+                        <li class="list-group-item py-0">3556 Beech Street, San Francisco,
+                            California, CA 94108</li>
+                        </div>
+                        <div class="call d-flex py-3">
+                            <i class="fa-solid fa-phone px-3"></i>
+                            <li class="list-group-item ">+1 315 369 5943</li>
+                        </div>
+                        <div class="mail d-flex">
+                            <i class="fa-solid fa-envelope px-3"></i>
+                            <li class="list-group-item py-0">mentoring@example.com</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
