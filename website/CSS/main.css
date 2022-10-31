@@ -1,0 +1,40 @@
+body{
+    font-family: 'EB Garamond', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Romanesco', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Times New Roman', Times, serif;
+padding: 0px 0px;
+margin: 0px 0px;
+}
+
+.col-wraper{
+    padding: 0px 15px;
+
+}
+.section{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../Images/back-3.jpg);
+    
+}
+ 
+.card-footer a{
+    text-decoration: none;
+}
+.section6 {
+    background-color: bisque;
+
+}
+
+.container-fluid col{
+    margin: 0px 0px;
+}
+
+
+
+
+    
+    
+
