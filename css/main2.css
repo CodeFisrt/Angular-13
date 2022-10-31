@@ -9,7 +9,7 @@ body{
 }
 
 .custom-container-img{
-    background: url("/Project/images/digital-img.png");
+    background: url("/images/digital-img.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 82vh;
@@ -18,8 +18,7 @@ body{
 
 .btn.disabled, .btn:disabled, fieldset:disabled .btn{
     color: green;
-    pointer-events: none;
-    background-color: var(--bs-btn-disabled-bg);
+    
     border-color: green 
     
 }
@@ -48,7 +47,7 @@ body{
     font-family: 'Bitter', serif;
 }
 .banner-text {
-    position: absolute;
+    position: absolute; 
     bottom: 100px;
     width: 100%;
     left: 0;
@@ -70,12 +69,13 @@ body{
 }
 .title-header{
     padding: 60px 0 0 0px;
+    padding-bottom: 111px;
 }
 .dg-header-2 {
     font-size: 40px;
     letter-spacing: 0.3px;
     line-height: 50px;
-    padding-top: 110px;
+    /* padding-top: 20px; */
     /* padding-bottom: 24px; */
     padding-left: 46px;
    
@@ -97,16 +97,6 @@ body{
     padding-left: 60px ;
 }
 
-.single-img-content::before{
-    width: 20px;
-    height: 70%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    background-color: #f8f8f8;
-}
-
 
 .img-part{
     margin-top: 100px;
@@ -115,7 +105,7 @@ body{
     font-size: 40px;
     letter-spacing: 0.3px;
     line-height: 50px;
-    padding-top: 140px;
+    /* padding-top: 140px; */
      /* padding-bottom: 60px;  */
     padding-left: 80px; 
    
@@ -128,7 +118,7 @@ body{
     margin-top: 30px;
 }
 .dg-header-8{
-    padding-left: 52px;
+    padding-left: 0px;
 }
 .market-detail{
     padding-top: 111px;
@@ -187,7 +177,47 @@ body{
  ul li a:hover{
     color: #65E214;
 }
-ul li:hover{
+ div i:hover{
     color: #65E214;
 }
+.image-green-shadow{
+    /* border: 1px solid;
+  padding: 10px; */
+  box-shadow: 10px 12px #65E214;
+}
+.side-gray-border {
+    
+    padding: 33px 91px 31px 20px;
+    border: #e5eaec solid 2px;
+    position: relative;
+    z-index: 9;
+    margin-left: 45px;
+    /* text-align: center; */
+    margin-top: 150px;
+    margin-right: 20px;
+    
+
+}
+ .single-img .img-details:before {
+    width: 20px;
+    height: 70%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* height: 20px; */
+    background-color: #f8f8f8;
+}
+.single-img .img-details:after {
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    background-color: #f8f8f8;
+}
+
 
