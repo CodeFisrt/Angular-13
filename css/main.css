@@ -52,7 +52,7 @@ body{
     transform: scale(1.2);
 }
 .section4{
-    background-color: pink;
+    background-color: rgb(146, 145, 145);
 }
 .section5 {
     background-color: antiquewhite;
@@ -73,9 +73,8 @@ img:hover {
 .inner1:hover img{
     transform: scale(1.2);
 }
-.inner1 :hover{
-    ta
-}
+
+
 .section7 span{
    color: blue;
 }
