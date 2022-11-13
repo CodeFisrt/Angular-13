@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <script>
+
+
+    function onColorSelect() {
+        var colorvalue = document.getElementById('dpdlColor').value;
+        document.getElementById("selectedColor").innerHTML = colorvalue;
+       //
+        // document.getElementById("selectedColor").style.backgroundColor=colorvalue;
+        // document.getElementById('dpdlColor').innerText=colorvalue;
+    }
+    function printColor() {
+        var colorvalue = document.getElementById('dpdlColor').value;
+        document.getElementById("selectColor").style.backgroundColor = colorvalue;
+    }
+    function loginBtn() {
+        var Name = document.getElementById('userName').value;
+        var enterpassword = document.getElementById('userPassword').value;
+
+
+    
+    if (Name == "") {
+
+        document.getElementById('userName').style.borderColor = "red";
+        document.getElementById('errUser').style.display = "block"
+    } else {
+
+        document.getElementById('userName').style.borderColor = "gray";
+        document.getElementById('errUser').style.display = "none";
+
+    }
+
+    if (enterpassword == "") {
+
+        document.getElementById('userPassword').style.borderColor = "red";
+        document.getElementById('errorPassword').style.display = "block"
+    }
+    else {
+
+        document.getElementById('userPassword').style.borderColor = "gray";
+        document.getElementById('errorPassword').style.display = "none";
+
+    }
+}
+
+    function resetBtn() {
+        document.getElementById('userName').value = "";
+        document.getElementById('userPassword').value = "";
+    }
+
+</script>
+<div class="container">
+    <div class="mt-2 p-3 bg-secondary text-white rounded text-center">
+        <h2>Assignment on element reading and printing.</h2>
+        <p>Topic used: if else, switch case, document.getElementById, variable declaration.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mt-3">
+
+            <label for="">Choose color</label>
+            <select name="" id="dpdlColor" class="form-control" onchange="onColorSelect()" onclick="printColor()">
+                <option value="">Select Color</option>
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="pink">pink</option>
+                <option value="blue">blue</option>
+                <option value="yellow">yellow</option>
+                <option value="grey">grey</option>
+                <option value="black">black </option>
+
+            </select>
+
+
+
+        </div>
+        <div class="col-md-6 mt-3">
+            <div class="bgcolor" id="selectColor" style="width: 300px; height: 40px;" >
+                    <!-- <p>Selected Background Color:</p> --> 
+            <!-- <label>Selected Background Color:</label>  -->
+            <div>
+                selected Background color is :<span id='selectedColor'></span>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="head border mt-4 text-center w-50 p-4">
+
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="userName" class="form-control" placeholder="UserName">
+
+                <div class="" style="display:none;color:red ;" id="errUser">
+                    Enter User Name 
+                </div>
+                <!-- <span id="errUser" style="display: none;color:red;">Enter User Name</span> -->
+            </div>
+            <div class="col-md-6">
+                <input type="password" class="form-control" id="userPassword" placeholder="Password">
+                <span id="errorPassword" style="display: none;color:red;">Enter Password</span>
+            </div>
+        </div>
+
+        <div class="row pt-3">
+
+            <div class="col-md-12">
+                <button id="btnLogin" class="btn btn-sm btn-success" onclick="loginBtn()">Login</button> &nbsp;
+                <button id="btnReset" class="btn btn-sm btn-danger" onclick="resetBtn()">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
